@@ -9,7 +9,7 @@ INSERT INTO users (username, email) VALUES
     ('StevenWilliamson', 'steven.williamson@gmail.com'),
     ('AnthonyBlackman', 'tony.blackman@example.com');
 
--- Додавання рандомниз даних про замовлення в таблицю 'orders'
+-- Наповнення даними про замовлення в таблицю 'orders'
 INSERT INTO orders (user_id, order_date, amount) VALUES
     (1, '2021-01-15', 150.00),
     (2, '2021-02-20', 200.50),
